@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     cursor: pointer;
+    /* border: 1px solid #2A2627; */
 }
 body{
     background-color: #CCA38C; /*#FFF0EC,#E9CAB4, #CCA38C,PARAGRAPH-COLOR #2A2627, #F8F6F4,  */
@@ -91,7 +92,7 @@ li a{
 }
 .home-text{
     padding: 0.3rem 0.7rem;
-    height: 37vh;
+    /* height: 37vh; */
 }
 p{
     font-size: 1rem;
@@ -101,7 +102,6 @@ p{
     font-size: 1.7rem;
     width: 61%;
     font-weight: 600;
-    height: 22vh;
     /* line-height: 1.2; */
 }
 .btn{
@@ -137,9 +137,12 @@ p{
 .home-img-line{
     border: 2px solid #E9CAB4;
     height: 40vh;
+    width: 97%;
+    /* overflow: hidden; */
     position: relative;
-    padding: 0.3rem;
-    margin-left: 3%;
+    margin: 0 auto;
+    /* left: 2%; */
+    padding: 0.5rem;
 }
 .home-img{
     background-image: url("./images/spa.jpeg");
@@ -148,12 +151,11 @@ p{
     background-size: cover;
     background-position: center;
     position: absolute;
-    /* left: 2%; */
+    left: 2%;
 }
 .info{
     height: 10vh;
     width: 100%;
-    margin-top: 5%;
     padding: 0 0.6rem;
     display: flex;
     flex-wrap: wrap;
