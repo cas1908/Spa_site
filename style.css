@@ -2,6 +2,7 @@
     /* padding: 0.1rem; */
     margin: 0;
     box-sizing: border-box;
+    cursor: pointer;
 }
 body{
     background-color: #CCA38C; /*#FFF0EC,#E9CAB4, #CCA38C,PARAGRAPH-COLOR #2A2627, #F8F6F4,  */
@@ -63,7 +64,7 @@ nav h2{
 }
 li a{
     text-decoration: none;
-    color: #2A2627;
+    color: #FFF0EB;
 }
 .nav-list li:hover{
     background-color: #2A2627;
@@ -89,8 +90,8 @@ li a{
     display: block;  
 }
 .home-text{
-    padding: 0.3rem 0.6rem;
-    height: 38vh;
+    padding: 0.3rem 0.7rem;
+    height: 37vh;
 }
 p{
     font-size: 1rem;
@@ -147,7 +148,7 @@ p{
     background-size: cover;
     background-position: center;
     position: absolute;
-    left: 2%;
+    /* left: 2%; */
 }
 .info{
     height: 10vh;
@@ -169,13 +170,13 @@ i{
 main{
     background-color: #F8F6F4;
 }
-.abt-us {
+#abt-us {
     height: 100vh;
 }
 .abt{
     text-align: center;
     padding: 0.7rem;
-    height: 35vh;
+    /* height: 33vh; */
 }
 .abt h2{
     line-height: 1.2;
@@ -189,10 +190,11 @@ main{
     text-align: center;
     color: #CCA38C;
     font-weight: 100;
-    height: 65vh;
+    /* height: 65vh; */
 }
 .learn-more p{
     font-size: 1rem;
+    margin-bottom: 5%;
 }
 .learn-more-line{
     border: 2px solid #E9CAB4;
@@ -225,13 +227,13 @@ main{
     justify-content: space-around;
 }
 /* OUR SERVICES */
-.our-service{
+#our-service{
     height: 100vh;
 }
 .service{
     height: 60vh;
 }
-.our-service h4{
+#our-service h4{
     text-align: center;
 }
 .our-service-line{
@@ -277,8 +279,8 @@ main{
 }
 /* TESTIMONIALS */
 .testimonials{
-    height: 270vh;
-    padding-top: 1.5rem;
+    /* height: 26vh; */
+    padding-top: 2.5rem;
 }
 .testimonials h4{
     padding-left: 0.8rem;
