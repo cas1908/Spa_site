@@ -1,5 +1,4 @@
 *{
-    /* padding: 0.1rem; */
     margin: 0;
     box-sizing: border-box;
     cursor: pointer;
@@ -9,6 +8,7 @@ body{
     background-color: #CCA38C; /*#FFF0EC,#E9CAB4, #CCA38C,PARAGRAPH-COLOR #2A2627, #F8F6F4,  */
     font-family: 'Poppins';
     padding: 0rem;
+    width: 100vw;
     color: #2A2627;
     overflow-x: hidden;
 }
@@ -37,7 +37,7 @@ header h2{
 }
 nav{
    height: 50vh;
-   width: 96vw;
+   width: 100vw;
    padding-top: 0.3rem;
 }
 nav h2{
