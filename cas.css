@@ -14,7 +14,6 @@ body{
     background-color: #FFF0EB;
     height: 100vh;
     width: 100%;
-    overflow-x: hidden;
 }
 .head{
     display: flex;
@@ -88,26 +87,24 @@ li a{
     display: block;  
 }
 .home-text{
-    width: 100vw;
-    padding: 0;
+    width: 100%;
+    padding: 1rem;
+
 }
 .home-text h1{
     font-size: 1.7rem;
     width: 65%;
-    padding-left: 0.5rem;
     font-weight: 600;
-}
-.home-text p, h1{
-    padding-left: 0.5rem; 
+    
 }
 .btn{
     display: flex;
-    width: 95%;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-between;
 }
 .btn button{
-    width: 45%;
-    height: 8vh;
+    width: 47%;
+    padding: 1rem;
 }
 .black-btn, .transparent-btn{
     font-weight: 600;
@@ -137,7 +134,7 @@ li a{
 }
 .home-img-line{
     border: 2px solid #E9CAB4;
-    height: 39vh;
+    height: 40vh;
     width: 95%;
     position: relative;
     padding: 0.7rem;
@@ -145,7 +142,7 @@ li a{
 .home-img{
     background-image: url("./images/spa.jpeg");
     height: 100%;
-    width: 100%;
+    width: 97%;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -200,8 +197,9 @@ main{
     border: 2px solid #E9CAB4;
     height: 25vh;
     position: relative;
-    padding: 0.5rem;
+    padding: 0.3rem;
     width: 40vw;
+    margin: 5% 0;
 }
 .learn-more-img-1,.learn-more-img-2,.learn-more-img-3{
     
@@ -230,18 +228,15 @@ main{
     height: 100vh;
     width: 100%;
 }
-.service{
-    height: 50vh;
-}
 #our-service h4{
     text-align: center;
 }
 .our-service-line{
     border: 2px solid #E9CAB4;
-    height: 40vh;
+    height: 45vh;
     position: relative;
     padding: 0.5rem;
-    margin: 0 auto;
+    margin: 5% auto;
     width: 80vw;
 }
 .our-service-img{
@@ -259,6 +254,7 @@ main{
 }
 .pricing{
     padding: 0.3rem 1rem;
+    line-height: 1.5;
 }
 .pricing ul{
     padding: 0;
@@ -271,7 +267,7 @@ main{
 .pricing li{
     font-weight: 600;
     list-style-type: none;
-    line-height: 1.5;
+    line-height: 2;
 }
 /* TESTIMONIALS */
 .testimonials{
