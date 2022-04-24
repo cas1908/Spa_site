@@ -4,6 +4,10 @@
     box-sizing: border-box;
     cursor: pointer;
 }
+a{
+   text-decoration: none;
+   color: #2A2627; 
+}
 body{
     background-color: #CCA38C; /*#FFF0EC,#E9CAB4, #CCA38C,PARAGRAPH-COLOR #2A2627, #F8F6F4,  */
     font-family: 'Poppins';
@@ -12,14 +16,14 @@ body{
 }
 #home{
     background-color: #FFF0EB;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
 }
 .head{
     display: flex;
     justify-content: space-between;
     padding: 0.2rem 0;
-    height: 5vh;
+    height: 6.5vh;
     width: 100vw;
     margin: 0;
     background-color: #CCA38C;
@@ -28,6 +32,7 @@ body{
     z-index: 9999;
     top: 0;
     left: 0;
+    padding-top: 0.9rem;
     transition: all 0.5s ease-in-out;
 }
 header h2{
@@ -38,6 +43,7 @@ header h2{
 nav{
     height: 50vh;
     width: 95vw;
+    padding-top: 0.2rem;
  }
  nav h2{
      display: none;
@@ -59,6 +65,7 @@ nav{
     font-size: 1.2rem;
     padding-left: 0.5rem;
     cursor: pointer;
+    opacity: 0;
     transition: opacity 1s ease-in-out;
 }
 li a{
@@ -342,12 +349,12 @@ footer p{
 }
 .head.active {
     height: 50vh;
-    position: absolute;
-
+    /* position: absolute; */
+    padding-top: 1rem;
 
 }
 .head.active nav{
-    padding-top: 0.6rem;
+    padding-top: 1.5rem;
 }
 .head.active .nav-list{
     padding: 0;
@@ -361,7 +368,7 @@ footer p{
 .head.active .menu-btn{
     position: absolute;
     right: 13%;
-    top: 3%;
+    top: 6%;
 }
 .head.active .menu-btn span:nth-child(1){
     transform: translate(2px, 4px) rotate(45deg);
@@ -381,5 +388,5 @@ footer p{
     display: block;
     position: absolute;
     left: 5%;
-    top: 1%;
+    top: 6%;
 }
