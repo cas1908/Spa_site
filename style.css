@@ -16,7 +16,7 @@ body{
 }
 #home{
     background-color: #FFF0EB;
-    height: 100vh;
+    height: 97vh;
     width: 100%;
     position: relative;
     /* margin-top: 5%; */
@@ -96,7 +96,7 @@ li a{
 }
 .home-text{
     width: 100%;
-    margin: 5% 0;
+    margin: 7% 0;
     padding: 1rem;
 
 }
