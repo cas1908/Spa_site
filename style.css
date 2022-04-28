@@ -19,12 +19,12 @@ body{
     height: 100vh;
     width: 100%;
     position: relative;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 .head{
     display: flex;
     justify-content: space-between;
-    height: 6vh;
+    height: 5vh;
     width: 100vw;
     margin: 0;
     background-color: #CCA38C;
@@ -96,7 +96,7 @@ li a{
 }
 .home-text{
     width: 100%;
-    padding: 1rem;
+    padding: 1.8rem 1rem;
 
 }
 .home-text h1{
@@ -359,8 +359,8 @@ footer p{
 }
 .head.active .nav-list{
     padding: 0;
-    position: fixed;
-    top: 20%;
+    position: absolute;
+    top: 40%;
 
 }
 .head.active .nav-list li{
